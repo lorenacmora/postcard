@@ -1,0 +1,50 @@
+body {
+	background: black;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: medium;
+	font-weight: 100;
+	text-align: justify;
+	margin-top: 700px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 60px;
+	height: 60px;
+	margin: 10px;
+}
+.postcard-header h1 {
+	width: 330px;
+	margin: 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: auto;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+	margin-left: auto;
+}
+input {
+	border-bottom: 1px solid rgb(66, 66, 66);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: rgb(165, 163, 163);
+	padding: 5px;
+}
